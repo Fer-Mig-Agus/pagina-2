@@ -50,8 +50,12 @@ body{
 
 #container #cabecera{
     grid-area: cabecera;
+    /*
     background-color: #EFEFEF;
+    */
     width: 100%;
+    background: url("../img/FondoPagina.png");
+    position: (200,200);
 }
 
 #container #cabecera #logo{
@@ -131,6 +135,108 @@ body{
 
 }
 
+#container #cabecera #texto-meet {
+    display: block;
+    height: 151px;
+    width: 37%;
+    text-align: center;
+    margin-top: 120px;
+    color: black;
+    font-size: 40px;
+    font-family: "calibri";
+    margin-left: 8%;
+}
+
+#container #cabecera #enlaces-A{
+    height: 60px;
+    width: 13.5%;
+    background: white;
+    margin-left: 8.4%;
+    margin-top: 42px;
+    
+}
+
+#container #cabecera #enlaces-A a{
+    display: block;
+    height: 60px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #13161B;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#container #cabecera #enlaces-A:hover{
+    border-radius: 150px;
+    background: black;
+}
+
+#container #cabecera #enlaces-A a:hover{
+    
+    font-size: 22px;
+    color: white;
+}
+
+
+#container #cabecera .boton-play {
+    display: block;
+    float: left;
+    margin-left: 25%;
+    margin-top: -60px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    height: 60px;
+    width: 12%;
+    text-align: center;
+    line-height: 60px;
+    padding-left: 2%;
+}
+
+
+#container #cabecera .boton-play:hover {
+    border-radius: 150px;
+    font-size: 22px;
+    color: white;
+    background: red;
+    padding-right: 2%;
+
+}
+
+
+#container #cabecera a img{
+    width: 15px;
+    height: auto;
+
+}
+
+#container #cabecera .boton-play:hover img{
+    display: none;
+}
+
+#container #contenido{
+    grid-area: contenido;
+    width: 100%;
+}
+
+#container #contenido .texto-centrado h2{
+    display: block;
+    width: 55.9%;
+    height: 140px;
+    text-align: center;
+    font-family: "calibri";
+    font-size: 26px;
+    margin-top: 150px;
+    margin-left: 22%;
+    margin-bottom: 150px;
+}
+
+#container #contenido .primera-imagen{
+    width: 90%;
+    height: 1135px;
+    background-color: #EFEFEF;
+}
 
 
 
